@@ -1,0 +1,50 @@
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section de présentation */
+p {
+    background-color: #454451;
+    padding: 20px;
+}
+
+/* Liens */
+nav a {
+    color: #0074d9;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Contenu du blog */
+.contenu {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Formulaire de présentation */
+.formulaire {
+    margin-top: 20px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Arrière-plan général */
+* {
+    background-image: url('proffession.png');
+    background-color: #454451;
+}
+
+/* Titre principal */
+h1 {
+    color: black;
+}
