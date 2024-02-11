@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MON portfolio</title>
+    <title  class="blinking-text"></h1>>MON portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- En-tête -->
     <header>
-        <h1>MON PORTFOLIO</h1>
+        <style>
+            @keyframes blink {
+                0%, 100% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+            }
+    
+            .blinking-text {
+                animation: blink 1s infinite;
+            }
+        </style>
+    
+        <h1 class="blinking-text">MON PORTFOLIO</h1>
     </header>
-
+    
     <!-- Texte principal -->
     <h1>jj-29 Appreter vous pour le ramadan en profitant de ce moi de cha'ban</h1>
     <p><b>HELLO</b> moi c'est SOULEYMANE YEO, JE SUIS DÉVELOPPEUR 🙂</p>
