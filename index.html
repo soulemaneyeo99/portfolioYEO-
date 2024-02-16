@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title  class="blinking-text"></h1>>MON portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- En-tête -->
-    <header>
-        <style>
-            @keyframes blink {
-                0%, 100% {
-                    opacity: 1;
-                }
-                50% {
-                    opacity: 0;
-                }
-            }
-    
-            .blinking-text {
-                animation: blink 1s infinite;
-            }
-        </style>
-    
-        <h1 class="blinking-text">MON PORTFOLIO</h1>
-    </header>
-    
-    <!-- Texte principal -->
-    <h1>jj-29 Appreter vous pour le ramadan en profitant de ce moi de cha'ban</h1>
-    <p><b>HELLO</b> moi c'est SOULEYMANE YEO, JE SUIS DÉVELOPPEUR 🙂</p>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mon Profil</title>
+  </head>
+  <body>
     <!-- Liens -->
+
     <nav>
-        <h1>Que veux-tu savoir ?</h1>
-        <h4>LIEN vers les pages</h4>
-        <ul>
-            <li><a href="http://127.0.0.1:5500/index%20-%20prst.html">Me connaître mieux</a></li>
-            <li><a href="http://127.0.0.1:5500/index%20-%20projet.html">Vie professionnelle</a></li>
-            <li><a href="https://uvci.edu.ci/portail/Main/index/fr" target="_blank">UVCI mon école</a></li>
-            <li><a href="http://www.google.com/" target="_blank">Google</a></li>
-            <li><a href="https://www.facebook.com/home.php" target="_blank">Facebook</a></li>
-        </ul>
+      <a href="http://127.0.0.1:5500/index%20-%20prst.html">About me</a>
+      <a href="http://127.0.0.1:5500/index%20-%20projet.html"
+        >Parcours & compétences</a
+      >
+      <a href="https://uvci.edu.ci/portail/Main/index/fr" target="_blank"
+        >My School</a
+      >
+      <!--a href="#">For College Courses</a>
+      <a href="#">Cart (0)</a -->
+      <a href="https://www.linkedin.com/feed/" target="_blank">My Account</a>
     </nav>
 
-    <!-- Image de profil -->
-    <img src="FB_IMG_17052711907404600.jpg" alt="Image de profil">
+    <nav style="text-align: right">
+      <a href="http://www.google.com/" target="_blank"
+        ><img src="google (1).svg" width="25px"
+      /></a>
+    </nav>
+
+    <nav style="text-align: right">
+      <a href="https://www.facebook.com/home.php" target="_blank"
+        ><img src="facebook.svg" width="25px" alt=""
+      /></a>
+    </nav>
+
+    <!-- Texte principal -->
+    <p style="text-align: center">
+      <b>HELLO</b>, moi c'est SOULEYMANE YEO, JE SUIS DÉVELOPPEUR 🙂
+    </p>
 
     <!-- Description -->
-    <p>Je suis un étudiant développeur d'applications et de services à l'UVCI. Je suis en licence 1 pour l'année 2023-2024.</p>
-    <hr>
+    <p style="text-align: center">
+      Je suis un étudiant développeur d'applications et de services à l'UVCI. Je
+      suis en licence 1 pour l'année 2023-2024.
+    </p>
+    <br />
 
     <!-- Formulaire de présentation -->
     <section class="formulaire">
-        <h3>Présentation : (bloc non disponible en cours de travaux 😂)</h3>
-        <p>Maintenant que vous me connaissez un peu mieux, veuillez vous présenter s'il vous plaît.</p>
-        <form>
-            <label for="nom">Nom :</label>
-            <input id="nom" type="text" name="nom" placeholder="Veuillez entrer votre nom">
-        </form>
+      <h3 style="text-align: center">
+        Présentation : (bloc non disponible en cours de travaux 🙌)
+      </h3>
+      <p style="text-align: center">
+        Maintenant que vous me connaissez un peu mieux, veuillez vous présenter
+        s'il vous plaît.
+      </p>
+      <form>
+        <label for="nom">Nom :</label>
+        <input
+          id="nom"
+          type="text"
+          name="nom"
+          placeholder="Veuillez entrer votre nom"
+        />
+      </form>
     </section>
-</body>
+    <br />
+    <div style="margin: 1cm">
+      <img src="FB_IMG_17052711907404600.jpg" style="border-radius: 333cm" />
+    </div>
+  </body>
 </html>
